@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import useActiveSection from "../components/useActiveSection";
+import useActiveSection from "../Components/useActiveSection";
 import { Link } from 'react-router-dom';
 import Konnect from "../../src/assets/KonnectBlack.png"
 import KonnectBlack from "../../src/assets/KonnectBlack.png"
