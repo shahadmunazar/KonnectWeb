@@ -1,0 +1,165 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden!important; /* Hide horizontal scroll */
+}
+
+.sidebar {
+  /* min-width: 250px; */
+  max-width: 250px;
+  background: #343a40;
+  color: #fff;
+  height: 100vh;
+  overflow-x: hidden!important; /* Hide horizontal scroll */
+}
+
+.main {
+  flex: 1;
+  background: #f8f9fa;
+  overflow-x: hidden!important; /* Fallback */
+}
+html, body {
+  overflow-x: hidden;
+}
+
+.content {
+  padding: 20px;
+}
+
+.sidebar-content {
+  padding: 20px;
+}
+
+.sidebar-brand {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar-nav .nav-link {
+  color: #fff;
+}
+
+.sidebar-bottom {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+/* src/styles/App.css */
+.navbar-light {
+  padding: 0.5rem 1rem;
+}
+
+.sidebar-toggle {
+  padding: 0.5rem;
+}
+/* Hide the dropdown arrow */
+.no-arrow .dropdown-toggle::after {
+  display: none !important;
+}
+.hamburger {
+  color: #6c757d; /* Gray color for the hamburger icon */
+}
+
+.form-control {
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+}
+
+.nav-link {
+  padding: 0.5rem !important;
+}
+
+.avatar {
+  vertical-align: middle;
+}
+
+.badge {
+  font-size: 0.6rem;
+  padding: 0.25em 0.4em;
+}
+
+.dropdown-menu {
+  min-width: 10rem;
+  font-size: 0.875rem;
+}
+
+/* Custom styles for the notification dropdown */
+.dropdown-menu-lg {
+  min-width: 3rem;
+}
+
+.dropdown-header {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  color: #212529;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.list-group-item {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+.dropdown-footer {
+  padding: 0.5rem 1rem;
+  border-top: 1px solid #e9ecef;
+  font-size: 0.875rem;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.text-dark {
+  color: #212529 !important;
+}
+
+.small {
+  font-size: 0.75rem;
+}
+/* Black when closed, no shadow, no border */
+.accordion-item.bg-black .accordion-button.collapsed {
+  background-color: #343a40 !important;
+  color: white !important;
+  border: 1px solid white !important;
+  box-shadow: none !important; /* Remove shadow when closed */
+}
+
+/* Gray when open, keep shadow if desired */
+.accordion-item.bg-black .accordion-button:not(.collapsed) {
+  background-color: #6c757d !important;
+  color: white !important;
+  border: none !important;
+  box-shadow: none !important; /* Remove shadow when closed */
+  /* box-shadow remains default unless you want to remove it here too */
+}
+
+/* Remove border from accordion item */
+.accordion-item.bg-black {
+  border: none !important;
+}
+
+/* White dropdown icon */
+.accordion-item.bg-black .accordion-button::after {
+  filter: invert(1) !important; /* Makes the icon white */
+}
+.accordion-body {
+  padding-top:0px !important;
+  padding-left: 13px !important;
+}
+.custom-progress {
+  height: 10px !important; /* Decrease height */
+  font-size: 11px !important; /* Set font size */
+}
+
+.custom-progress .progress-bar {
+  line-height: 10px; /* Align text vertically with reduced height */
+}
+.modal-body{
+  padding: 15px !important;
+}
